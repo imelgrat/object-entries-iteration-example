@@ -5,11 +5,11 @@ const app = document.getElementById("app");
 const entries = Object.entries(car);
 app.insertAdjacentHTML(
   "beforeend",
-  "The car's property entries are:  <br>";
+  "The car's property entries are:  <br>"
 );
 for (let [key, value] of Object.entries(entries)) {
   app.insertAdjacentHTML(
     "beforeend",
-    `${key}: ${value}<br>`;
+    `${key}: ${value}<br>`
   );
 }
