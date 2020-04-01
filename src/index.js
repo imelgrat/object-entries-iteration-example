@@ -1,7 +1,7 @@
 let car = { color: "blue", model: "Sandero", doors: 4 };
 const app = document.getElementById("app");
 
-// Create an array with the object's enumerable values
+// Create an array with the object's enumerable entries (in the form of [key, value] arrays)
 const entries = Object.entries(car);
 app.insertAdjacentHTML(
   "beforeend",
