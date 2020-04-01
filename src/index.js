@@ -7,7 +7,7 @@ app.insertAdjacentHTML(
   "beforeend",
   "The car's property entries are:  <br>"
 );
-for (let [key, value] of Object.entries(entries)) {
+for (let [key, value] of entries) {
   app.insertAdjacentHTML(
     "beforeend",
     `${key}: ${value}<br>`
